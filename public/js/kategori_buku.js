@@ -1,6 +1,6 @@
 $(document).ready(() => {
 	let method  = 'add'
-	let table = $('table').DataTable({
+	let table = $('#table').DataTable({
 		ajax: read_url,
 		columns: [
 			{ data: null },
