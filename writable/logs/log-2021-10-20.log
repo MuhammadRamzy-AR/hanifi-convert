@@ -43,3 +43,225 @@ CRITICAL - 2021-10-20 20:55:51 --> Call to a member function userdata() on null
 #11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #12 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #13 {main}
+CRITICAL - 2021-10-20 21:43:49 --> Invalid file: anggota/anggota.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/anggota...')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('anggota/anggota', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(13): view('anggota/anggota', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 21:43:56 --> Invalid file: anggota/anggota.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/anggota...')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('anggota/anggota', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(13): view('anggota/anggota', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 22:11:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\anggota\v_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('anggota/v_anggo...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(12): view('anggota/v_anggo...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 22:11:19 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:11:58 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:13:46 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:16:31 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:16:56 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:21:01 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:21:22 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:30:54 --> Call to a member function getAnggotaAll() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-10-20 22:31:07 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:31:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:34:01 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:34:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 22:34:53 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-10-20 22:35:40 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:35:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:36:05 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:36:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:38:01 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:38:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:38:46 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:38:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:40:22 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:40:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-20 22:42:09 --> Unknown column 'anggota.deleted_at' in 'where clause'
+CRITICAL - 2021-10-20 22:42:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_anggota.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(16): App\Models\M_anggota->getAnggotaAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 22:43:07 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:43:55 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:44:42 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:45:25 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:46:44 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:49:12 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->read()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:51:25 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 22:52:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\anggota\v_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('anggota/v_anggo...', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Anggota.php(20): view('anggota/v_anggo...', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 23:53:07 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->add()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

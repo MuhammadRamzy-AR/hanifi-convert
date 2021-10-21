@@ -1,0 +1,101 @@
+CRITICAL - 2021-10-21 01:13:50 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:16:06 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:17:00 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:19:59 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:20:05 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:20:37 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:20:43 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Anggota->edit('1')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 01:51:07 --> Invalid file: anggota/v_kategori.php
+#0 C:\xampp\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/v_kateg...')
+#1 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('anggota/v_kateg...', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(20): view('anggota/v_kateg...', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->index()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-21 01:51:16 --> Table 'test.katgori_buku' doesn't exist
+CRITICAL - 2021-10-21 01:51:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_kategori.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(29): App\Models\M_kategori->getKategoriBukuAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->read()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-21 01:51:24 --> Table 'test.katgori_buku' doesn't exist
+CRITICAL - 2021-10-21 01:51:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_kategori.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(29): App\Models\M_kategori->getKategoriBukuAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->read()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-21 01:52:24 --> Table 'test.katgori_buku' doesn't exist
+CRITICAL - 2021-10-21 01:52:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_kategori.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(29): App\Models\M_kategori->getKategoriBukuAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->read()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-21 01:52:59 --> Table 'test.katgori_buku' doesn't exist
+CRITICAL - 2021-10-21 01:52:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_kategori.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(29): App\Models\M_kategori->getKategoriBukuAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->read()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-21 01:53:04 --> Table 'test.katgori_buku' doesn't exist
+CRITICAL - 2021-10-21 01:53:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ci4\app\Models\M_kategori.php(30): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Kategori_buku.php(29): App\Models\M_kategori->getKategoriBukuAll()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->read()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

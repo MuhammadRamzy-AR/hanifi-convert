@@ -1,7 +1,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('') ?>">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('public/') ?>">
     </a>
 
     <!-- Divider -->
@@ -9,7 +9,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url() ?>">
+        <a class="nav-link" href="<?php echo base_url('public/') ?>">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -32,14 +32,14 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Buku</h6>
                 <a class="collapse-item" href="<?php echo base_url('buku') ?>">Data Buku</a>
-                <a class="collapse-item" href="<?php echo base_url('kategori_buku') ?>">Kategori Buku</a>
+                <a class="collapse-item" href="<?php echo base_url('public/kategori_buku') ?>">Kategori Buku</a>
             </div>
         </div>
     </li>
 
     <!-- Nav Item - Utilities Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('anggota') ?>">
+        <a class="nav-link" href="<?php echo base_url('public/anggota') ?>">
             <i class="fas fa-fw fa-user"></i>
             <span>Anggota</span>
         </a>
