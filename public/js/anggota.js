@@ -1,6 +1,6 @@
 $(document).ready(() => {
 	let method  = 'add'
-	let table = $('table').DataTable({
+	let table = $('#table').DataTable({
 		ajax: read_url,
 		columns: [
 			{ data: null },
@@ -50,6 +50,7 @@ $(document).ready(() => {
 	}
 	function edit() {
 		let id = table.row('.selected').data().id
+		console.log(id)
 		$.ajax({
 			url: `${edit_url}/${id}`,
 			type: 'post',
@@ -58,7 +59,7 @@ $(document).ready(() => {
 			success: res => {
 				reload()
 				$('.action').addClass('d-none')
-				Swal.fire('Sukses', 'Sukses Menambahkan Data', 'success')
+				Swal.fire('Sukses', 'Sukses Update Data', 'success')
 				$('.modal').modal('hide')
 			},
 			error: err => console.log(err)
