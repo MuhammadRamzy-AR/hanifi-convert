@@ -1,11 +1,12 @@
 $(document).ready(() => {
 	let method  = 'add'
-	let table = $('table').DataTable({
+	let table = $('#table').DataTable({
 		ajax: read_url,
 		columns: [
 			{ data: null },
+			{ data: 'id_buku' },
 			{ data: 'kode' },
-			{ data: 'nama' },
+			{ data: 'judul' },
 			{ data: 'kategori' },
 			{ data: 'jumlah' },
 			{ data: 'dipinjam' },
@@ -52,16 +53,20 @@ $(document).ready(() => {
 		})
 	}
 	function edit() {
-		let id = table.row('.selected').data().id
+		let id = table.row('.selected').data().id_buku
+
+		console.log(table.row('.selected').data());
+
 		$.ajax({
 			url: `${edit_url}/${id}`,
 			type: 'post',
 			dataType: 'json',
 			data: $('#form').serialize(),
 			success: res => {
+				console.log($('#form').serialize());
 				reload()
 				$('.action').addClass('d-none')
-				Swal.fire('Sukses', 'Sukses Menambahkan Data', 'success')
+				Swal.fire('Sukses', 'Sukses Update Data', 'success')
 				$('.modal').modal('hide')
 			},
 			error: err => console.log(err)
@@ -80,15 +85,25 @@ $(document).ready(() => {
 	})
 	$('#tambah').on('click', () => {
 		method = 'add'
+		$('.modal-title').html('Tambah')
+		$('[type=submit]').html('Tambah')
 		$('.modal').modal('show')
 	})
+	function selectElement(id, valueToSelect)
+	{
+		let element = document.getElementById(id);
+    	element.value = valueToSelect;
+
+		$('#kategoriSelect').val(valueToSelect);
+	}
 	$('#edit').on('click', () => {
 		method = 'edit'
 		let data = table.row('.selected').data()
 		$('.modal-title').html('Edit')
 		$('[name=kode]').val(data.kode)
-		$('[name=nama]').val(data.nama)
-		$('[name=kategori]').append(`<option value=${data.kategori_id}>${data.kategori}</option>`)
+		$('[name=nama]').val(data.judul)
+		selectElement(data.id_kategori , data.id_kategori)
+		$('[name=kategori]').val(data.id_kategori)
 		$('[name=jumlah]').val(data.jumlah)
 		$('[type=submit]').html('Edit')
 		$('.modal').modal('show')
@@ -117,21 +132,21 @@ $(document).ready(() => {
 			}
 		})
 	})
-	$('[name=kategori]').select2({
-		placeholder: 'Kategori',
-		ajax: {
-			url: get_kategori_url,
-			type: 'get',
-			dataType: 'json',
-			data: params => ({
-				kategori: params.term
-			}),
-			processResults: data => ({
-				results: data
-			}),
-			cache: true
-		}
-	})
+	// $('[name=kategori]').select2({
+	// 	placeholder: 'Kategori',
+	// 	ajax: {
+	// 		url: get_kategori_url,
+	// 		type: 'get',
+	// 		dataType: 'json',
+	// 		data: params => ({
+	// 			kategori: params.term
+	// 		}),
+	// 		processResults: data => ({
+	// 			results: data
+	// 		}),
+	// 		cache: true
+	// 	}
+	// })
 	$('.modal').on('hidden.bs.modal', () => {
 		$('#form')[0].reset()
 		validator.resetForm()

@@ -99,3 +99,176 @@ CRITICAL - 2021-10-21 01:53:05 --> Call to a member function getResult() on bool
 #5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2021-10-21 02:17:24 --> Class 'App\Models\M_Buku' not found
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(779): App\Controllers\Buku->__construct()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 02:18:42 --> Class 'App\Models\M_Buku' not found
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(779): App\Controllers\Buku->__construct()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 02:18:59 --> Class 'App\Models\M_Buku' not found
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(779): App\Controllers\Buku->__construct()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 02:19:13 --> Call to undefined method App\Models\M_Buku::getBukuAll
+#0 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(29): CodeIgniter\Model->__call('getBukuAll', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Buku->read()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 02:23:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(29): App\Models\M_Buku->getBukuAll()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Buku->read()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-21 02:30:57 --> Table 'test.kategori_buu' doesn't exist
+CRITICAL - 2021-10-21 02:30:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(29): App\Models\M_Buku->getBukuAll()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Buku->read()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 03:01:30 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 03:01:40 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 03:01:50 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 03:02:46 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 03:02:58 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 03:04:02 --> Call to a member function getKategori() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Kategori_buku->get_kategori()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_buku))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-10-21 03:46:23 --> Unknown column 'buku' in 'field list'
+CRITICAL - 2021-10-21 03:46:24 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(33): App\Models\M_Buku->getBukuAll()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Buku->read()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-21 03:46:33 --> Unknown column 'buku' in 'field list'
+CRITICAL - 2021-10-21 03:46:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\ci4\app\Controllers\Buku.php(33): App\Models\M_Buku->getBukuAll()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Buku->read()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 21:00:23 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\ci4\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('pengaturan', Array, true)
+#3 C:\xampp\htdocs\ci4\app\Controllers\Pengaturan.php(13): view('pengaturan', Array)
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-21 21:04:29 --> Call to a member function getPengaturanAll() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:12:29 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->simpan()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:12:42 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->simpan()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:21:54 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:31:44 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:31:57 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:33:09 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:34:30 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:35:44 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:35:46 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 21:36:53 --> Illegal string offset 'nama'
+#0 C:\xampp\htdocs\ci4\app\Views\pengaturan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1092): CodeIgniter\View\View->render('pengaturan', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Pengaturan.php(27): view('pengaturan', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(802): App\Controllers\Pengaturan->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

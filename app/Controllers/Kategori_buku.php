@@ -14,7 +14,7 @@ class Kategori_buku extends BaseController
     public function index()
     {
         $data = array(
-            'title' => 'Data Katgeori Buku'
+            'title' => 'Data Kategori Buku'
         );
 
         return view('buku/v_kategori', $data);

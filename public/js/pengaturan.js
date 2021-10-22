@@ -13,7 +13,8 @@ $(document).ready(() => {
 				dataType: 'json',
 				data: $('#form').serialize(),
 				success: res => {
-					Swal.fire('Sukses', 'Sukses Menambahkan Data', 'success')
+					console.log($('#form').serialize());
+					Swal.fire('Sukses', 'Sukses Update Data', 'success')
 				},
 				error: err => console.log(err)
 			})

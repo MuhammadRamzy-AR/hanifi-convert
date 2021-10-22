@@ -31,7 +31,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Buku</h6>
-                <a class="collapse-item" href="<?php echo base_url('buku') ?>">Data Buku</a>
+                <a class="collapse-item" href="<?php echo base_url('public/buku') ?>">Data Buku</a>
                 <a class="collapse-item" href="<?php echo base_url('public/kategori_buku') ?>">Kategori Buku</a>
             </div>
         </div>
@@ -70,7 +70,7 @@
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('pengaturan') ?>">
+        <a class="nav-link" href="<?php echo base_url('public/pengaturan') ?>">
             <i class="fas fa-fw fa-cog"></i>
             <span>Pengaturan</span></a>
     </li>

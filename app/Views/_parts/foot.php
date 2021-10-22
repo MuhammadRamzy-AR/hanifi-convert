@@ -12,4 +12,5 @@
 <!-- Page level plugins -->
 <script src="<?php echo base_url() ?>/public/sbadmin/vendor/datatables/jquery.dataTables.min.js"></script>
 <script src="<?php echo base_url() ?>/public/sbadmin/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+  <script src="<?php echo base_url() ?>/public/sbadmin/vendor/select2/js/select2.min.js"></script>
 <script src="<?php echo base_url() ?>/public/sbadmin/vendor/jquery-validation/jquery.validate.min.js"></script>
